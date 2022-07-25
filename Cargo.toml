@@ -1,0 +1,7 @@
+[workspace]
+
+members = [
+  "api",
+  "dep_a/lib_a",
+  "dep_b/lib_b",
+]

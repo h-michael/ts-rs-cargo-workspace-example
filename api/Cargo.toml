@@ -1,0 +1,11 @@
+[package]
+name = "api"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+lib_a = { path = "../dep_a/lib_a" }
+lib_b = { path = "../dep_b/lib_b" }
+ts-rs = "6.2"
